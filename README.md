@@ -49,16 +49,4 @@ It minifies and renames JS/CSS assets as well as cleaning the old "dist" directo
 gulp
 ```
 
-**gulp concatScripts**
-
-The gulp concatScripts command combines the specified JS resources into main.js
-You can add new JS files to this command on line 16 in gulpfile.js
-You might want to run concatScripts once separately after adding new JS files.
-```
-gulp concatScripts
-```
-
-## Overwriting Bootstrap sass variables
-You can overwrite specific bootstrap sass variables by uncommenting lines in assets/css/1-frameworks/bootstrap/bootstrap-user-variables.scss
-
 * Start the MAMP services and run "gulp serve" as before.
