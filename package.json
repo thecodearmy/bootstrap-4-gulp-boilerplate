@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-theme",
+  "version": "1.0.0",
+  "description": "bootstrap 4 theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootsrap",
+    "theme"
+  ],
+  "author": "Bhargav Patel",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "*",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
